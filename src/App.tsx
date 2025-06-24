@@ -4,25 +4,24 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Education from './components/Education';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import VisitCounter from './components/VisitCounter';
+// import VisitCounter from './components/VisitCounter';
 
 function App() {
-  const [visitCount, setVisitCount] = useState(0);
+  // const [visitCount, setVisitCount] = useState(0);
 
-  useEffect(() => {
-    // Get current visit count from localStorage
-    const currentCount = localStorage.getItem('portfolioVisitCount');
-    const count = currentCount ? parseInt(currentCount, 10) : 0;
+  // useEffect(() => {
+  //   // Get current visit count from localStorage
+  //   const currentCount = localStorage.getItem('portfolioVisitCount');
+  //   const count = currentCount ? parseInt(currentCount, 10) : 0;
     
-    // Increment visit count
-    const newCount = count + 1;
-    localStorage.setItem('portfolioVisitCount', newCount.toString());
-    setVisitCount(newCount);
-  }, []);
+  //   // Increment visit count
+  //   const newCount = count + 1;
+  //   localStorage.setItem('portfolioVisitCount', newCount.toString());
+  //   setVisitCount(newCount);
+  // }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -31,11 +30,10 @@ function App() {
       <About />
       <Skills />
       <Experience />
-      <Education />
       <Projects />
       <Contact />
       <Footer />
-      <VisitCounter count={visitCount} />
+      {/* <VisitCounter count={visitCount} /> */}
     </div>
   );
 }

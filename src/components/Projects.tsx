@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "TokneX - Peer-to-peer communication and collaboration",
       description: "TokneX is a real-time peer-to-peer learning platform that enables collaborative learning through topic-based rooms",
-      image: "https://private-user-images.githubusercontent.com/119086415/411092831-62eeb9f5-b06e-4394-95dd-6b4d6953087d.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA3NTE2MDgsIm5iZiI6MTc1MDc1MTMwOCwicGF0aCI6Ii8xMTkwODY0MTUvNDExMDkyODMxLTYyZWViOWY1LWIwNmUtNDM5NC05NWRkLTZiNGQ2OTUzMDg3ZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyNFQwNzQ4MjhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YmJhMTZhYTE1ZGZjZTM1ZGM5NGUyNzU1ZjE2NTY4MGQ4ZDE0YWFkYjY5YjVjNTY0OGU5M2Y5NjBlZDM5MjdiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.azuM5znr9tDJtpL8xOPOo_Ik_T0X4tnVU1RDhA-9UUc",
+      image: "/TokneX.png",
       technologies: ["Python", "Django", "Django Restframework", "HTML/CSS", "PostgreSQL"],
       liveUrl: "#",
       githubUrl: "https://github.com/sahil-vanarse/linkUp"
