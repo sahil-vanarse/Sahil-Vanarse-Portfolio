@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CodingStats from './components/CodingStats'; 
 // import VisitCounter from './components/VisitCounter';
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
+      <CodingStats />
+      {/* Uncomment the VisitCounter component if you want to display visit count */}
+      {/* <VisitCounter count={visitCount} /> */}
       <Contact />
       <Footer />
       {/* <VisitCounter count={visitCount} /> */}

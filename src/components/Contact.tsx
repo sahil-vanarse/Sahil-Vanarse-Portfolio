@@ -19,7 +19,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Location",
       content: "Mahad, Maharashtra, India",
-      link: "#"
+      link: "https://www.google.com/maps/place/Mahad,+Maharashtra/@18.0503,73.4002,12z"
     }
   ];
 
