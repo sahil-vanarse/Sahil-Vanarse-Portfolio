@@ -34,7 +34,7 @@ const Header = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {['About', 'Skills', 'Experience', 'Education', 'Projects', 'Contact'].map((item) => (
+              {['About', 'Skills', 'Experience', 'Education', 'Projects', 'Coding-Stats', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
@@ -60,7 +60,7 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md rounded-lg mt-2 shadow-lg">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {['About', 'Skills', 'Experience', 'Education', 'Projects', 'Contact'].map((item) => (
+              {['About', 'Skills', 'Experience', 'Education', 'Projects', 'Coding-Stats', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
