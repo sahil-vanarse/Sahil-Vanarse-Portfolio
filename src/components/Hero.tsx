@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
               Get In Touch
             </button>
             <a
-              href="/Sahil_Vanarse_Resume.pdf"
+              href="/Sahil_Vanarse.pdf"
               download
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2"
             >
