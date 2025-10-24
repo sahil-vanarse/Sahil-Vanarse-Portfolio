@@ -8,9 +8,11 @@ const Experience = () => {
       company: "AssistifAI",
       period: "April 2025 - Present",
       description: [
-        "Built scalable FastAPI-based backend with PostgreSQL, Redis, and Celery, enabling async web crawling and 40% faster APIs.",
-        "Improved platform reliability with Redis caching, structured logging, and robust error handling.",
-        "Collaborated with team members during regular sync-ups and contributed to feature planning and developmentdiscussions.",
+        "Designed and deployed distributed, event-driven architecture for crawler service (FireCrawl, Crawl4ai, Celery, Redis), reducing onboarding time by 80%",
+        "Developed RESTful microservices (FastAPI, Node.js), ensuring robust, scalable, and secure distributed systems.",
+        "Built a customizable AI assistant platform that businesses can embed into their websites via exportable links, enabling end-users to book appointments, track orders, and resolve queries through specialized AI agents with response latency under 2 seconds.",
+        "Implemented secure transaction workflows with Stripe, including webhook validation and error recovery mechanisms, strengthening system reliability and security.",
+        "Implemented Redis-based caching and monitoring pipelines, enabling anomaly detection in backend services, reducing redundant queries, and improving system observability."
       ],
       technologies: ["Python", "Node.js", "FastAPI", "PostgreSQL", "Redis", "Celery", "React"]
     },

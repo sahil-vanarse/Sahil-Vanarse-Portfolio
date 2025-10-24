@@ -14,7 +14,7 @@ const education: EducationItem[] = [
     degree: "Masters of Computer Applications",
     institution: "G.H. Raisoni College of Engineering and Management",
     location: "Pune, Maharashtra",
-    duration: "Aug 2023 – May 2025",
+    duration: "Aug 2023 – June 2025",
     cgpa: "CGPA: 9.48 / 10.00",
   },
   {

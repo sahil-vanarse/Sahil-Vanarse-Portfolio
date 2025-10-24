@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "sahilvanarse9@email.com",
-      link: "mailto:sahilvanarse9@email.com"
+      content: "sahilvanarse9@gmail.com",
+      link: "mailto:sahilvanarse9@gmail.com"
     },
     {
       icon: Phone,
@@ -18,8 +18,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      content: "Mahad, Maharashtra, India",
-      link: "https://www.google.com/maps/place/Mahad,+Maharashtra/@18.0503,73.4002,12z"
+      content: "Pune, Maharashtra, India",
+      link: "https://www.google.com/maps/place/Pune,+Maharashtra/@18.5204,73.8567,12z"
     }
   ];
 
