@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
               Get In Touch
             </button>
             <a
-              href="/Sahil_Vanarse.pdf"
+              href="/Sahil_Vanarse.docx"
               download
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2"
             >
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
                 className="w-6 h-6 hover:scale-110 transition-transform duration-200"
               />
             </a>
-            <a href="mailto:sahilvanarse9@email.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:sahilvanarse9@gmail.com" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://img.icons8.com/color/48/gmail-new.png"
                 alt="Gmail"
